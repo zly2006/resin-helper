@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "resin-helper",
+  "version": "${version}",
+
+  "name": "resin-helper",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "LGPL-3.0",
+  "icon": "assets/resin-helper/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+
+      "mixins": [
+        "resin-helper.mixins.json"
+      ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
